@@ -9,7 +9,14 @@
     <title>Digital Clock</title>
     <script src="library/bootstrap/bootstrap.bundle.min.js"></script>
   </head>
-  <body>
+  <body class="bg-primary d-flex justify-content-center align-items-center">
+    <main class="bg-light p-5 container-lg rounded m-2">
+      <p class="text-center fs-1 fw-light">Digital Clock</p>
+      <section id="timing"></section>
+      <div class="fst-italic">
+        Display greeting based on current time: <span id="greeting"></span>
+      </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
